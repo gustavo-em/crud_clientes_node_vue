@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+
+    "moduleResolution": "node",
+
+    "target": "es2017",                                  
+    "lib": ["es5", "es6", "dom"],                                       
+    "experimentalDecorators": true,                   
+    "emitDecoratorMetadata": true,                    
+    
+    "module": "commonjs",                                
+    
+    "allowJs": true,                                  
+    "strict": false,
+    "outDir": "./c_back",                              
+    "rootDir": "./api",                              
+    "removeComments": true,      
+                         
+    "sourceMap": true,
+
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    
+    "strictPropertyInitialization": false,             
+    
+    "skipLibCheck": true                                 
+  }
+}
